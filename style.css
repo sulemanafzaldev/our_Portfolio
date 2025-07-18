@@ -27,7 +27,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
     flex-wrap: wrap;
 }
 
@@ -81,6 +80,14 @@ nav ul li a:hover::after {
 .header-text {
     margin-top: 20%;
     font-size: 30px;
+}
+.header-text p {
+    font-size: 24px;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 8px;
+    font-weight: bold;
+    
 }
 
 .header-text h1 {
@@ -507,5 +514,28 @@ nav .fa-solid{
     nav .fas{
         display: block;
         font-size: 25px;
+    }
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+    background: #ff004f;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
     }
 }
